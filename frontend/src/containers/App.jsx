@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react'
 import { Routes, Route } from 'react-router-dom'
-import { Authentication, HomeScreen } from '../pages';
+import Authentication from '../pages/Authentication';
+import HomeScreen from '../pages/HomeScreen';
 
 const App = () => {
   return <Suspense fallback={<div>Loading...</div>}>
