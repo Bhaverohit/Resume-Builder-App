@@ -19,7 +19,7 @@ const Authentication = () => {
 
                 <div className='w-full lg:w-96 rounded-md p-2 flex flex-col items-center justify-start gap-6'>
                     <AuthButtonWithProvider Icon={FaGoogle} label={"Sign in with Google"} provider={"GoogleAuthProvider"} />
-                    <AuthButtonWithProvider Icon={FaGithub} label={"Sign in with GitHub"} provider={"GitHubAuthProvider"} />
+                    <AuthButtonWithProvider Icon={FaGithub} label={"Sign in with Github"} provider={"GithubAuthProvider"} />
                 </div>
 
             </div>
